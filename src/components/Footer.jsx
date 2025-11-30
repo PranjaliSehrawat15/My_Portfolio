@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer className="bg-black text-white py-12">
       <div className="max-w-7xl mx-auto text-center">
-        <h2 className="text-3xl font-montserrat mb-6">Amine</h2>
+        <h2 className="text-3xl font-montserrat mb-6">Pranjali</h2>
         
         <ul className="flex flex-wrap justify-center gap-6 mb-6">
           {['Home', 'About', 'Projects', 'Services', 'Contact'].map((item) => (
@@ -19,7 +19,7 @@ const Footer = () => {
 
         <div className="flex justify-center gap-4 mb-6">
           <a 
-            href="https://github.com/Saboo24" 
+            href="https://github.com/PranjaliSehrawat15" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-white hover:text-primary transition-colors text-lg"
@@ -27,7 +27,7 @@ const Footer = () => {
             <i className="fa-brands fa-github"></i>
           </a>
           <a 
-            href="https://www.linkedin.com/in/amine-hamzaoui-a2453a35b" 
+            href="https://www.linkedin.com/in/pranjali-sehrawat-b90557328/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-white hover:text-primary transition-colors text-lg"
@@ -35,7 +35,7 @@ const Footer = () => {
             <i className="fa-brands fa-linkedin"></i>
           </a>
           <a 
-            href="https://wa.me/213554139526" 
+            href="https://wa.me/919548286343" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-white hover:text-primary transition-colors text-lg"
@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
 
         <p className="text-gray-400 text-sm">
-          &copy; 2025 Amine. All Rights Reserved.
+          &copy; 2025 Pranjali. All Rights Reserved.
         </p>
       </div>
     </footer>

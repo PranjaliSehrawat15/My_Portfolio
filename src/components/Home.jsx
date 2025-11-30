@@ -55,17 +55,31 @@ const Home = () => {
             </div>
 
             <div className="flex flex-wrap gap-4 mb-6 text-sm text-gray-600 dark:text-gray-300">
-              <p><i className="fa-solid fa-location-dot mr-2"></i> Based in Algeria</p>
+              <p><i className="fa-solid fa-location-dot mr-2"></i> Based in India</p>
               <p><i className="fa-solid fa-briefcase mr-2"></i> Available Now</p>
             </div>
 
             <div className="flex flex-wrap gap-4 mb-8">
               <button className="btn-primary">
-                <i className="fa-solid fa-arrow-right mr-2"></i> Hire Me
+                {/* <i className="fa-solid fa-arrow-right mr-2"></i> Hire Me */}
+                <a href="#contact" className="btn-home1">
+                  <i className="fa-solid fa-arrow-right"></i> Hire Me
+                </a>
+
               </button>
-              <button className="btn-secondary">
-                <i className="fa-solid fa-download mr-2"></i> Download CV
+
+              <button className="btn-primary">
+                 <a
+              href="https://drive.google.com/file/d/18CcY-CRtF1DgbrOMIgDuQgM5MtDGF7JZ/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-home2"
+              style={{ display: "flex", alignItems: "center", gap: "8px" }}
+              >
+                <i className="fa-solid fa-download mr-2"></i> Resume
+                </a>
               </button>
+
             </div>
 
             <hr className="my-8 border-gray-300 dark:border-gray-600" />
@@ -73,16 +87,16 @@ const Home = () => {
             <div className="flex flex-wrap items-center gap-4">
               <p className="font-medium">Follow me:</p>
               <div className="flex gap-4 text-xl">
-                <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors">
+                <a href="https://github.com/PranjaliSehrawat15" className="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors">
                   <i className="fa-brands fa-github"></i>
                 </a>
-                <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors">
+                <a href="https://discord.com/1280760623361298456" className="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors">
                   <i className="fa-brands fa-discord"></i>
                 </a>
-                <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors">
+                <a href="https://www.linkedin.com/in/pranjali-sehrawat-b90557328/" className="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors">
                   <i className="fa-brands fa-linkedin"></i>
                 </a>
-                <a href="#" className="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors">
+                <a href="https://www.instagram.com/pranjali_1570/" className="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors">
                   <i className="fa-brands fa-instagram"></i>
                 </a>
               </div>

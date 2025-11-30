@@ -2,7 +2,9 @@
   position: fixed;
   inset: 0;
   background: #000;
-  color: #00ffff;
+  /* color: #00ffff; */
+  color:#474af0;
+  /* color:#1ba6e6; */
   display: flex;
   justify-content: center;
   align-items: center;
