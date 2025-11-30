@@ -1,0 +1,41 @@
+.loading-screen {
+  position: fixed;
+  inset: 0;
+  background: #000;
+  color: #00ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 9999;
+  font-family: 'Poppins', sans-serif;
+}
+
+.loading-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateY(-250px);
+}
+
+.fall {
+  animation: fall 0.8s forwards ease-out;
+}
+
+@keyframes fall {
+  0% { opacity: 0; transform: translateY(-200px); }
+  60% { opacity: 1; transform: translateY(20px); }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+/* spacing fix for icons row */
+.sub-icons {
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  margin-top: 10px;
+}

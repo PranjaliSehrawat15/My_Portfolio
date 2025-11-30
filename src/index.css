@@ -115,3 +115,14 @@
 .service-card:hover p {
   color: white !important;
 }
+:root {
+  color-scheme: dark;
+}
+body{
+  background-color: #111827 !important;
+  color:white !important;
+}
+
+html{
+  scroll-behavior: smooth;
+}
