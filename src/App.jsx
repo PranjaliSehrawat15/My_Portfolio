@@ -66,7 +66,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import BackToTop from "./components/BackToTop";
 
-function App() {
+export default function App() {
   const [loaded, setLoaded] = useState(false);
 
   return (
@@ -76,13 +76,11 @@ function App() {
       {loaded && (
         <div className="fade-in">
           <Header />
-          <main>
-            <Home />
-            <About />
-            <Projects />
-            <Services />
-            <Contact />
-          </main>
+          <Home />
+          <About />
+          <Projects />
+          <Services />
+          <Contact />
           <Footer />
           <BackToTop />
         </div>
@@ -90,5 +88,3 @@ function App() {
     </>
   );
 }
-
-export default App;

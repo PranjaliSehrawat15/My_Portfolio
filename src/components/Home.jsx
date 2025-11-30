@@ -42,7 +42,7 @@ const Home = () => {
 
         <div className="flex flex-col lg:flex-row items-center gap-12">
           <div className="flex-1">
-            <h1 className="text-5xl lg:text-7xl font-bold font-raleway mb-6">Hi, I'm Amine</h1>
+            <h1 className="text-5xl lg:text-7xl font-bold font-raleway mb-6">Hi, I'm Pranjali Sehrawat</h1>
             <h3 className="text-3xl lg:text-4xl font-playfair mb-6 min-h-[48px]">
               {currentWord}
               <span className="animate-pulse">|</span>
@@ -92,7 +92,7 @@ const Home = () => {
           <div className="flex-1 flex justify-center">
             <img 
               src="/images/img2.jpg" 
-              alt="Amine" 
+              alt="Pranjali" 
               className="rounded-lg w-full max-w-md shadow-2xl"
             />
           </div>

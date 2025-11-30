@@ -74,7 +74,8 @@ export default function LoadingScreen({ onFinish }) {
         {/* ORDER EXACTLY LIKE IMAGE */}
         <i className="fa-solid fa-laptop-code fa-5x main-icon hidden"></i>
 
-        <h1 id="loading-text" className="hidden">MY PROFILE</h1>
+        {/* <h1 id="loading-text" className="hidden">MY PROFILE</h1> */}
+         <h1 id="loading-text" className="text-3xl font-bold fall" >MY PROFILE</h1>
 
         <div className="sub-icons">
           <i className="fa-brands fa-github fa-2x hidden"></i>
@@ -82,7 +83,7 @@ export default function LoadingScreen({ onFinish }) {
           <i className="fa-solid fa-user fa-2x hidden"></i>
         </div>
 
-        <h2 id="designer-text" className="hidden">Designed by Amine</h2>
+        <h2 id="designer-text" className="hidden font-2xl">Designed by Pranjali</h2>
       </div>
     </div>
   );

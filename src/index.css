@@ -126,3 +126,12 @@ body{
 html{
   scroll-behavior: smooth;
 }
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.2s forwards ease-in-out;
+}
+
+@keyframes fadeIn {
+  to { opacity: 1; }
+}

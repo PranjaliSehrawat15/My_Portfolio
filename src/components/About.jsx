@@ -54,7 +54,7 @@ const About = () => {
           <div className="flex-1 flex justify-center">
             <img 
               src="/images/img.jpg" 
-              alt="About Amine" 
+              alt="About Pranjali" 
               className="rounded-lg w-full max-w-md border border-black dark:border-primary shadow-2xl"
             />
           </div>
