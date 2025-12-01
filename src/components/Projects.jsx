@@ -3,11 +3,11 @@ const Projects = () => {
     {
       id: 1,
       title: "Movie Browsing Website",
-      description: "Modern online store with product filtering, cart, and payment system.",
-      image: "/images/Cleveroad.jpg",
+      description: "A React-based movie discovery platform powered by the TMDB API.Search movies, explore details, and manage your personal watchlist seamlessly.",
+      image: "/images/Movie_app.png",
       skills: ["React", "TailwindCSS", "TMDB API"],
-      github: "#",
-      demo: "#"
+      github: "https://github.com/PranjaliSehrawat15/Episode_11",
+      demo: "https://movie-app-episode11.netlify.app/"
     },
     {
       id: 2,
@@ -20,39 +20,41 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: "Weather App",
-      description: "Responsive app showing real-time weather data using API integration.",
-      image: "/images/Weather Forecast Dashboard.jpg",
-      skills: ["HTML", "CSS", "JS" ,"API"],
-      github: "#",
-      demo: "#"
-    },
-    {
-      id: 4,
       title: "Blog Website",
-      description: "Clean and simple blogging platform.",
-      image: "/images/WordPress dashboard design concept.jpg",
+      description: "A modern blog platform built using React and Appwrite for secure authentication and data handling.Users can register, create posts, edit content, and explore blogs in a clean, responsive UI.",
+      image: "/images/blog_img.png",
       skills: ["React", "TailwindCSS", "API" , "Appwrite"],
-      github: "#",
-      demo: "#"
+      github: "https://github.com/PranjaliSehrawat15/mega_blog_project",
+      demo: "https://mega-blog-phi-sandy.vercel.app/"
     },
-    {
+
+    
+      {
+        id: 4,
+        title: "Productivity Dashboard",
+        description: "Personal Productivity Dashboard is a clean, minimalist web app that helps you stay focused, organized, and motivated. It combines essential tools like a task list, Pomodoro timer, weather updates, and motivational quotes — all in one place.",
+        image: "/images/dashboard.png",
+        skills: ["HTML", "CSS", "GSAP"],
+        github: "https://github.com/PranjaliSehrawat15/personal_productivity_dashboard",
+        demo: "https://personalproductivitydashboard.netlify.app/"
+      },
+      {
       id: 5,
-      title: "Game Landing Page",
-      description: "Landing page for a game with animations and parallax effects.",
-      image: "/images/Game Dashboard Design.jpg",
-      skills: ["HTML", "CSS", "GSAP"],
-      github: "#",
-      demo: "#"
+      title: "Weather App",
+      description: "Responsive weather app displaying real-time weather data using API integration.Background dynamically updates based on the searched location for a personalized experience.",
+      image: "/images/weather.png",
+      skills: ["HTML", "CSS", "JS" ,"API"],
+      github: "https://github.com/PranjaliSehrawat15/weather_app",
+      demo: "https://calm-smakager-a52fed.netlify.app/"
     },
     {
       id: 6,
-      title: "Task Manager",
-      description: "Task tracking web app with CRUD features and clean UI.",
-      image: "/images/Task manager app.jpg",
-      skills: ["HTML", "CSS", "JS"],
-      github: "#",
-      demo: "#"
+      title: "Interview Sense",
+      description: "It is an AI Interview Coach An intelligent desktop app built with Python + Tkinter + AI models that analyzes your speech, posture, eye contact, and sentiment in real-time or from recorded videos — helping you improve your interview performance.",
+      image: "/images/interview-sense.jpeg",
+      skills: ["Python Programming", "Computer Vision", "NLP"],
+      github: "https://github.com/PranjaliSehrawat15/Interview-Sense",
+      demo: "https://github.com/PranjaliSehrawat15/Interview-Sense"
     }
   ];
 

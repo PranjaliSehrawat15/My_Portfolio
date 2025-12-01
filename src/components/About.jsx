@@ -32,7 +32,7 @@ const About = () => {
                 <h3 className="font-semibold mb-3 flex items-center justify-center gap-2">
                   <i className="fa-solid fa-code text-primary"></i> Languages and Frameworks
                 </h3>
-                <p className="text-gray-600 dark:text-gray-300">HTML, CSS, JavaScript, C, C++, React, TailwindCSS</p>
+                <p className="text-gray-600 dark:text-gray-300">HTML, CSS, JavaScript, C, C++, Python, React, TailwindCSS</p>
               </div>
 
               <div className="border-2 border-black dark:border-primary rounded-lg p-6 text-center card-hover bg-white dark:bg-gray-800">
@@ -53,7 +53,7 @@ const About = () => {
 
           <div className="flex-1 flex justify-center">
             <img 
-              src="/images/img2.jpg" 
+              src="/images/img2.gif" 
               alt="About Pranjali" 
               className="rounded-lg w-full max-w-md border border-black dark:border-primary shadow-2xl"
             />
