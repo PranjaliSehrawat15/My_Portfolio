@@ -34,7 +34,7 @@ const Projects = () => {
         title: "Productivity Dashboard",
         description: "Personal Productivity Dashboard is a clean, minimalist web app that helps you stay focused, organized, and motivated. It combines essential tools like a task list, Pomodoro timer, weather updates, and motivational quotes — all in one place.",
         image: "/images/dashboard.png",
-        skills: ["HTML", "CSS", "GSAP"],
+        skills: ["HTML", "CSS" , "JS"],
         github: "https://github.com/PranjaliSehrawat15/personal_productivity_dashboard",
         demo: "https://personalproductivitydashboard.netlify.app/"
       },
