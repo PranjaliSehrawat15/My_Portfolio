@@ -1,0 +1,47 @@
+.loading-screen {
+  position: fixed;
+  inset: 0;
+  background: #000;
+  /* color: #00ffff; */
+  color:#474af0;
+  /* color:#1ba6e6; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 9999;
+  font-family: 'Poppins', sans-serif;
+}
+
+.loading-content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items:center;
+  justify-content:center;
+  text-align: center;
+
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateY(-250px);
+}
+
+.fall {
+  animation: fall 0.8s forwards ease-out;
+}
+
+@keyframes fall {
+  0% { opacity: 0; transform: translateY(-200px); }
+  60% { opacity: 1; transform: translateY(20px); }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+/* spacing fix for icons row */
+.sub-icons {
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  margin-top: 10px;
+}
