@@ -5,7 +5,7 @@ const Footer = () => {
         <h2 className="text-3xl font-montserrat mb-6">Pranjali</h2>
         
         <ul className="flex flex-wrap justify-center gap-6 mb-6">
-          {['Home', 'About', 'Projects', 'Services', 'Contact'].map((item) => (
+          {['Home', 'About', 'Projects', 'Skills', 'Contact'].map((item) => (
             <li key={item}>
               <a 
                 href={`#${item.toLowerCase()}`}

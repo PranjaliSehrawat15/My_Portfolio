@@ -2,10 +2,10 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Website",
+      title: "Movie Browsing Website",
       description: "Modern online store with product filtering, cart, and payment system.",
       image: "/images/Cleveroad.jpg",
-      skills: ["HTML", "CSS", "JavaScript"],
+      skills: ["React", "TailwindCSS", "TMDB API"],
       github: "#",
       demo: "#"
     },
@@ -14,7 +14,7 @@ const Projects = () => {
       title: "Portfolio Website",
       description: "Personal portfolio to showcase my design and coding projects.",
       image: "/images/Capture d'écran 2025-10-22 182207.png",
-      skills: ["HTML", "CSS", "Bootstrap"],
+      skills: ["React", "TailwindCSS"],
       github: "#",
       demo: "#"
     },
@@ -23,16 +23,16 @@ const Projects = () => {
       title: "Weather App",
       description: "Responsive app showing real-time weather data using API integration.",
       image: "/images/Weather Forecast Dashboard.jpg",
-      skills: ["HTML", "CSS", "API"],
+      skills: ["HTML", "CSS", "JS" ,"API"],
       github: "#",
       demo: "#"
     },
     {
       id: 4,
       title: "Blog Website",
-      description: "Clean and simple blogging platform with markdown support.",
+      description: "Clean and simple blogging platform.",
       image: "/images/WordPress dashboard design concept.jpg",
-      skills: ["HTML", "Tailwind", "JavaScript"],
+      skills: ["React", "TailwindCSS", "API" , "Appwrite"],
       github: "#",
       demo: "#"
     },

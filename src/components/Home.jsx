@@ -50,7 +50,7 @@ const Home = () => {
             
             <div className="text-gray-600 dark:text-gray-300 mb-6 space-y-1">
               <p>I create beautiful, functional, and user-centered digital experiences. With</p>
-              <p>2+ years of experience in web Development, I bring ideas to life through</p>
+              <p>1+ years of experience in Web Development, I bring ideas to life through</p>
               <p>clean code and thoughtful design</p>
             </div>
 
@@ -105,9 +105,9 @@ const Home = () => {
 
           <div className="flex-1 flex justify-center">
             <img 
-              src="/images/img2.jpg" 
+              src="/images/img.jpg" 
               alt="Pranjali" 
-              className="rounded-lg w-full max-w-md shadow-2xl"
+              className="rounded-lg w-full max-w-sm shadow-2xl ml-12"
             />
           </div>
         </div>
