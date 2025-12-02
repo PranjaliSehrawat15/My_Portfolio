@@ -13,10 +13,10 @@ const Projects = () => {
       id: 2,
       title: "Portfolio Website",
       description: "Personal portfolio to showcase my design and coding projects.",
-      image: "/images/Capture d'écran 2025-10-22 182207.png",
+      image: "/images/portfolio.png",
       skills: ["React", "TailwindCSS"],
-      github: "#",
-      demo: "#"
+      github: "https://github.com/PranjaliSehrawat15/My_Portfolio",
+      demo: "https://pranjalisehrawat-portfolio-website.netlify.app/"
     },
     {
       id: 3,
