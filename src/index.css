@@ -1,3 +1,6 @@
-@import "tailwindcss";
 
+/* ALL IMPORTS MUST BE HERE AT THE TOP */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:wght@300..800&family=Playfair+Display:wght@400..900&family=Unbounded:wght@200..900&display=swap');
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+@import "tailwindcss";
 @import "./custom.css";
