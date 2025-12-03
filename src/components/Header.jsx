@@ -109,7 +109,7 @@ const Header = () => {
   const navItems = [
     { id: 'home', icon: 'fa-house', label: 'Home' },
     { id: 'about', icon: 'fa-address-card', label: 'About' },
-    { id: 'project', icon: 'fa-folder-open', label: 'Projects' },
+    { id: 'projects', icon: 'fa-folder-open', label: 'Projects' },
     { id: 'skills', icon: 'fa-solid fa-code', label: 'Skills' },
     { id: 'contact', icon: 'fa-envelope', label: 'Contact' },
   ];
@@ -118,7 +118,7 @@ const Header = () => {
     document.body.classList.add('dark-mode'); // FORCE DARK MODE
 
     const handleScroll = () => {
-      const sections = ['home', 'about', 'project', 'skills', 'contact'];
+      const sections = ['home', 'about', 'projects', 'skills', 'contact'];
       const scrollPos = window.scrollY + 100;
 
       sections.forEach(section => {

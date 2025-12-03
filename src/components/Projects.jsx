@@ -59,7 +59,7 @@ const Projects = () => {
   ];
 
   return (
-    <section id="project" className="py-20 section-padding">
+    <section id="projects" className="py-20 section-padding">
       <div className="max-w-7xl mx-auto text-center">
         <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">PROJECTS</p>
         <h1 className="text-4xl lg:text-5xl font-open-sans font-bold mb-4">Featured Work</h1>
@@ -72,49 +72,101 @@ const Projects = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
-            <div key={project.id} className="bg-gray-100 dark:bg-gray-800 rounded-2xl p-6 shadow-lg card-hover">
-              <img 
-                src={project.image} 
-                alt={project.title}
-                className="w-full h-48 object-cover rounded-xl mb-4"
-              />
+            // <div key={project.id} className="bg-gray-100 dark:bg-gray-800 rounded-2xl p-6 shadow-lg card-hover">
+            //   <img 
+            //     src={project.image} 
+            //     alt={project.title}
+            //     className="w-full h-48 object-cover rounded-xl mb-4"
+            //   />
               
-              <h3 className="text-xl font-semibold text-blue-900 dark:text-blue-400 mb-3">
-                {project.title}
-              </h3>
+            //   <h3 className="text-xl font-semibold text-blue-900 dark:text-blue-400 mb-3">
+            //     {project.title}
+            //   </h3>
               
-              <p className="text-gray-600 dark:text-gray-300 mb-4 text-sm">
-                {project.description}
-              </p>
+            //   <p className="text-gray-600 dark:text-gray-300 mb-4 text-sm">
+            //     {project.description}
+            //   </p>
 
-              <div className="flex flex-wrap gap-2 mb-4">
-                {project.skills.map((skill, index) => (
-                  <span 
-                    key={index}
-                    className="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-3 py-1 rounded-lg text-xs"
-                  >
-                    {skill}
-                  </span>
-                ))}
-              </div>
+            //   <div className="flex flex-wrap gap-2 mb-4">
+            //     {project.skills.map((skill, index) => (
+            //       <span 
+            //         key={index}
+            //         className="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-3 py-1 rounded-lg text-xs"
+            //       >
+            //         {skill}
+            //       </span>
+            //     ))}
+            //   </div>
 
-              <div className="flex justify-center gap-3">
-                <a 
-                  href={project.github}
-                  className="bg-blue-900 text-white px-4 py-2 rounded-full text-sm flex items-center gap-2 transition-all hover:bg-blue-800"
-                >
-                  <i className="fab fa-github"></i>
-                  GitHub
-                </a>
-                <a 
-                  href={project.demo}
-                  className="bg-blue-900 text-white px-4 py-2 rounded-full text-sm flex items-center gap-2 transition-all hover:bg-blue-800"
-                >
-                  <i className="fas fa-external-link-alt"></i>
-                  Live Demo
-                </a>
-              </div>
-            </div>
+            //   <div className="flex justify-center gap-3">
+            //     <a 
+            //       href={project.github}
+            //       className="bg-blue-900 text-white px-4 py-2 rounded-full text-sm flex items-center gap-2 transition-all hover:bg-blue-800"
+            //     >
+            //       <i className="fab fa-github"></i>
+            //       GitHub
+            //     </a>
+            //     <a 
+            //       href={project.demo}
+            //       className="bg-blue-900 text-white px-4 py-2 rounded-full text-sm flex items-center gap-2 transition-all hover:bg-blue-800"
+            //     >
+            //       <i className="fas fa-external-link-alt"></i>
+            //       Live Demo
+            //     </a>
+            //   </div>
+            // </div>
+
+            <div 
+  key={project.id} 
+  className="bg-gray-100 dark:bg-gray-800 rounded-2xl p-6 shadow-lg 
+             card-hover flex flex-col h-full"
+>
+  <img 
+    src={project.image} 
+    alt={project.title}
+    className="w-full h-48 object-cover rounded-xl mb-4"
+  />
+  
+  <h3 className="text-xl font-semibold text-blue-900 dark:text-blue-400 mb-3">
+    {project.title}
+  </h3>
+  
+  <p className="text-gray-600 dark:text-gray-300 mb-4 text-sm flex-1">
+    {project.description}
+  </p>
+
+  <div className="flex flex-wrap gap-2 mb-4">
+    {project.skills.map((skill, index) => (
+      <span 
+        key={index}
+        className="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 
+                   px-3 py-1 rounded-lg text-xs"
+      >
+        {skill}
+      </span>
+    ))}
+  </div>
+
+  <div className="flex justify-center gap-3 mt-auto pt-3">
+    <a 
+      href={project.github}
+      className="bg-blue-900 text-white px-4 py-2 rounded-full text-sm 
+                 flex items-center gap-2 transition-all hover:bg-blue-800"
+    >
+      <i className="fab fa-github"></i>
+      GitHub
+    </a>
+    <a 
+      href={project.demo}
+      className="bg-blue-900 text-white px-4 py-2 rounded-full text-sm 
+                 flex items-center gap-2 transition-all hover:bg-blue-800"
+    >
+      <i className="fas fa-external-link-alt"></i>
+      Live Demo
+    </a>
+  </div>
+</div>
+
           ))}
         </div>
       </div>
